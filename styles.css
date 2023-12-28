@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{ 
+    height: 100%;
+    background-color: rgb(29, 29, 29);
+    box-sizing: border-box;
+}
+
+.cajaGrande {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px rgb(207, 207, 207);
+    background-color: rgb(61, 61, 61);
+    color: rgb(235, 235, 235);
+    text-shadow: 1px 2px 5px white;
+    font-size: 6vh;
+}
+
+.cajaGrandeMenu {
+    border: solid 5px rgb(207, 207, 207);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgb(61, 61, 61);
+    text-shadow: 1px 2px 5px white;
+    font-size: 6vh;
+}
+
+.centrarCaja {
+    justify-content: center;
+    align-items: center;
+}
+
+.cajaCentralTitulo {
+    padding-top: 20px;
+    font-size: 3vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.cajaCentralTexto {
+    font-size: 3vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.cajaChicaMenu {
+    text-decoration: none;
+    background-color: rgb(61, 61, 61);
+    color: rgb(235, 235, 235);
+    text-shadow: 1px 2px 5px white;
+    font-size: 6vh;
+}
+
+.cilindroImagen {
+    position: relative;
+    width: 90vh;
+    height: 80vh;
+    background-image: url(imagenes/volumenCilindro.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.input {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.input:focus {
+    border-color: #141414;
+    box-shadow: 1px 3px 10px #ff0000;
+}
+
+.botonCalcular {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3vh;
+}
+
+footer{ 
+    padding: 20px;
+}
+
+.cajaGrandeFooter {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px rgb(207, 207, 207);
+    background-color: rgb(61, 61, 61);
+    color: rgb(235, 235, 235);
+    text-shadow: 1px 2px 5px white;
+    font-size: 6vh;
+}
